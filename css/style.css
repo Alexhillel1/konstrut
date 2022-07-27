@@ -232,3 +232,56 @@ body {
 
   color: #ffffff;
 }
+
+.capabilites {
+  padding-top: 58px;
+}
+
+.capabilites-top-list {
+  display: flex;
+}
+.capabilites-top-content {
+  display: flex;
+  margin-left: auto;
+}
+
+.capabilites-top-title {
+  font-size: 18px;
+  line-height: 1.16;
+
+  letter-spacing: 0.144em;
+
+  color: #48555b;
+  position: relative;
+}
+.capabilites-top-title::before {
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  content: "";
+  width: 50px;
+  height: 2px;
+  background-color: #00a4e5;
+}
+.capabilites-top-descr {
+  width: 405px;
+  font-size: 11px;
+  line-height: 1.72;
+  /* or 173% */
+
+  letter-spacing: 0.013em;
+
+  color: #48555b;
+  margin-right: 31px;
+}
+.capabilites-top-btn {
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1.15;
+
+  letter-spacing: 0.031em;
+
+  color: #ffffff;
+  background: #00a4e5;
+  padding: 11px 29px;
+}
